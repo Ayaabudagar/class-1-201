@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1 {color: rgb(65, 75, 75);background-color: aqua;}
+</style>
+    
+</head>
+<body>
+    <header>university</header>
+    <img src="https://cdn.dribbble.com/users/3372194/screenshots/6220108/abstract_logo.png" alt="">
+    <main>
+        <h1>class 1 lab</h1>
+        <p style="color:blue;background-color:brown;">what is your name? </p>
+        <p style="color: chocolate;background-color: crimson;">what is your university name?</p>
+        <p style="color: darkgreen;background-color: rgb(156, 177, 121);">do you prefer online or face to face study?</p>
+        <p style="color: darkred;background-color: darksalmon;">meeting or chating ?</p>
+
+    </main>
+    <script>
+        let name = prompt ("what is your name");
+        function printName (name) {
+            console.log (name);
+            alert("nice to meet you"  + name);
+        }
+        printName (name);
+
+        let universityName = prompt("what is your university name?");
+        function printuniversityName (universityName) {
+            console.log (universityName);
+            alert("it is also as my university name");
+        }
+        printuniversityName (universityName);
+
+        let studyMethod = prompt ("do you prefer online or face to face study?");
+        function printstudyMethod (studyMethod) {
+            console.log (studyMethod);
+            alert("great ! i am also like this method");
+
+        }
+        printstudyMethod (studyMethod);
+        
+        let communicateMethod = prompt ("meeting or chating ?");
+        function printcommunicateMethod (communicateMethod) {
+            console.log (communicateMethod) ;
+            alert ("also me like that!");
+        }
+        printcommunicateMethod (communicateMethod);
+        
+
+    </script>
+</body>
+</html>
